@@ -14,3 +14,10 @@ tag with id="awesome-index" with the calculated average awesome-index of all pro
 + The program uses a render method to update an existing programmer or add a new programmer if they do not yet exist in our table.
 + The program stores the data for the programmers in an Array; so, that it can acess it to check to see if that person exists and to use the data to populate the corresponding table.
 + The program dynamically creates the table and its rows.
+
+#### CSS & HTML:
++ This program uses [Adobe Color Palette - Vitamin C](https://color.adobe.com/Vitamin-C-color-theme-492199/)
++ Other complimentary colors from Adobe include:
+1. #382513 - Brown
+2. #363942 - Gray
+3. #000000 - Black
