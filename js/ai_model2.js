@@ -35,7 +35,9 @@ $(document).ready(function(){
       });
       var avgY = total / array.length;
       console.log(avgY);
-      $('awesome-index').text(avgY);
+      $('#awesome-index-two').text(avgY);
     };
-    $('#avgButton2').click(calcAverage(peopleArray));
+    $('#avgButton2').click(function(){
+      calcAverage(peopleArray);
+    });
 });
