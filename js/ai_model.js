@@ -27,11 +27,15 @@ var peopleArray = [
 // calculate average Awesome Index
 var aiAverage = function(){
   var total = 0;
+  var numPeople = 0;
   for(var i = 0; i < peopleArray.length; i++){
-    total += peopleArray[i].awesomeIndex;
+    if(peopleArray[i].occupation === 'programmer'){
+      total += peopleArray[i].awesomeIndex;
+      ++numPeople;
+    }
     console.log(total);
   }
-  var avgX = total / peopleArray.length;
+  var avgX = total / numPeople;
   console.log(avgX);
   var getAverage = document.getElementById('awesome-index');
   getAverage.innerHTML = avgX;
